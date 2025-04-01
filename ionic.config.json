@@ -1,0 +1,7 @@
+{
+  "name": "tela-aprentacao",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

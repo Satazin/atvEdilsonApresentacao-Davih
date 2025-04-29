@@ -25,3 +25,13 @@
 #container a {
   text-decoration: none;
 }
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Adds space between the cards */
+  gap: 16px; /* Optional: Adds consistent spacing between cards */
+}
+
+.format {
+  flex: 1; /* Ensures both cards take equal width */
+  max-width: 48%; /* Prevents cards from being too wide */
+}

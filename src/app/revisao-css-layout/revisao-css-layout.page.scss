@@ -1,0 +1,30 @@
+div{
+    border : 1px solid #fff;
+    height: 50px;
+    display: block;
+}
+label{
+    border:1px solid #fff;
+    display: block;
+}
+p{
+    text-align: center;
+}
+.centralizar{
+    border: 1px solid #fff;
+    width: 50%;
+    margin-left: 25%;
+}
+.filho{
+    border: 1px solid #fff;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+}
+.flutuacao{
+    float: left;
+    clear: both;
+}
+.direita{
+    float: right;
+}

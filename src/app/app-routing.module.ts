@@ -8,8 +8,32 @@ const routes: Routes = [
   },
   {
     path: '',
-    redirectTo: 'home',
+    redirectTo: 'apresentacao',
     pathMatch: 'full'
+  },
+  {
+    path: 'etapa1',
+    loadChildren: () => import('./apresentacao/etapa1/etapa1.module').then( m => m.Etapa1PageModule)
+  },
+  {
+    path: 'etapa2',
+    loadChildren: () => import('./apresentacao/etapa2/etapa2.module').then( m => m.Etapa2PageModule)
+  },
+  {
+    path: 'etapa3',
+    loadChildren: () => import('./apresentacao/etapa3/etapa3.module').then( m => m.Etapa3PageModule)
+  },
+  {
+    path: 'apresentacao',
+    loadChildren: () => import('./apresentacao/apresentacao.module').then( m => m.ApresentacaoPageModule)
+  },
+  {
+    path: 'revisao-css',
+    loadChildren: () => import('./revisao-css/revisao-css.module').then( m => m.RevisaoCssPageModule)
+  },
+  {
+    path: 'revisao-css-layout',
+    loadChildren: () => import('./revisao-css-layout/revisao-css-layout.module').then( m => m.RevisaoCssLayoutPageModule)
   },
 ];
 
